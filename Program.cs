@@ -26,6 +26,20 @@ namespace dictionary_list
 
       dictionaryOfWords.Add(excitedWord);
 
+
+
+
+      var pensiveWord = new Dictionary<string, string>();
+
+      pensiveWord.Add("word", "pensive");
+      pensiveWord.Add("definition", "Showing or expressing deep thought");
+      pensiveWord.Add("part of speech", "adjective");
+      pensiveWord.Add("example sentence", "She stared out at the night, silent, her expression pensive.");
+
+      dictionaryOfWords.Add(pensiveWord);
+
+
+
     }
   }
 }

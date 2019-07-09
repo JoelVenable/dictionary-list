@@ -39,7 +39,13 @@ namespace dictionary_list
       dictionaryOfWords.Add(pensiveWord);
 
 
-
+      foreach (var word in dictionaryOfWords)
+      {
+        foreach (KeyValuePair<string, string> data in word)
+        {
+          Console.WriteLine($"{data.Key}: {data.Value}");
+        }
+      }
     }
   }
 }
